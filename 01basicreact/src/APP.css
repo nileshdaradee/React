@@ -1,0 +1,97 @@
+.menu{
+    width: 80%;
+    position: fixed;
+    height: 100vh;
+    background-color: yellow;
+    text-align: left;
+    transition: 0.5s;
+    left: -100%;
+
+}
+.menu ul li{
+    list-style: none;
+    padding: 10px 10px;
+}
+.activemenu{
+    left: 0%;
+}
+
+.micon{
+    position: absolute;
+    right: 10px
+}
+
+.modeloverlay{
+    width: 100%;
+    position: fixed;
+    display: none;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.modeldiv{
+    width: 320px;
+    height: 320px;
+    position: fixed;
+    display: none;
+    background-color: white;
+    transition: 0.8s;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 50%;
+}
+
+.en{
+    position: fixed;
+    right: -30px;
+    top: 100px;
+    transform: rotate(90deg);
+}
+
+.modelshow{
+    display: block;
+}
+
+.showmodeldiv{
+    top: 50%;
+    display: block  ;
+}
+
+.faqouter{
+    width: 1320px;
+    margin: auto;
+
+    
+}
+
+.app{
+    text-align: center;
+}
+.faqitems{
+    border: 1px solid red;
+    margin-bottom: 20px;
+
+}
+.faqitems h2 {
+    margin: 0px;
+    padding: 10px;
+    background-color: #282c34;
+    color: white;
+    text-align: left;
+}
+
+.faqitems p{
+    text-align: left;
+    padding: 10px;
+    height: 0px;
+    transform: scaleY(0);
+    padding: 0px;
+    transition: 0.5s;
+    margin: 0px;
+}
+
+.activeans{
+    height: auto !important;
+    transform: scaleY(1) !important;
+    padding: 10px !important;
+
+}
