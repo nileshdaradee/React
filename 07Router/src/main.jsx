@@ -38,11 +38,13 @@ import { Info } from './component/info/info.jsx'
 const router=createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout/>}>
+      <Route path='info' element={<Info />}/>
+      
       <Route path='' element={<Home/>}/>
 
 
       <Route path='about' >
-        
+
       <Route path="" element={<About/>}/>
       <Route path='info' element={<Info/>}/>
 
